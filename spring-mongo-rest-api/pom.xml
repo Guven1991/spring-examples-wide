@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>spring-mongo-rest-api</artifactId>
-    <groupId>com.haydikodlayalim</groupId>
+    <groupId>com.guven</groupId>
     <version>1.0-SNAPSHOT</version>
     <name>demo</name>
     <description>Demo project for Spring Boot</description>
