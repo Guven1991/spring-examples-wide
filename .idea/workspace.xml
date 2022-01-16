@@ -5,52 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd4e5cc5-c1e4-42cf-b404-1d006a814901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-api-doc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-api-doc/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rabbitmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/guven/RabbitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/guven/config/RabbitMqConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/guven/listener/NotificationListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/guven/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/guven/producer/NotificationProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rabbitmq/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rabbitmq/src/main/resources/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/haydikodlayalim/DataJpaAplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/guven/DataJpaAplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/haydikodlayalim/controller/KisiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/guven/controller/KisiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/haydikodlayalim/dto/KisiDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/guven/dto/KisiDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/haydikodlayalim/entity/Adres.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/guven/entity/Adres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/haydikodlayalim/entity/Kisi.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/guven/entity/Kisi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/haydikodlayalim/repo/AdresRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/guven/repo/AdresRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/haydikodlayalim/repo/KisiRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/guven/repo/KisiRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/haydikodlayalim/service/KisiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/guven/service/KisiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/haydikodlayalim/service/impl/KisiServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/guven/service/impl/KisiServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/target/classes/com/haydikodlayalim/DataJpaAplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/target/classes/com/haydikodlayalim/controller/KisiController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/target/classes/com/haydikodlayalim/dto/KisiDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/target/classes/com/haydikodlayalim/entity/Adres$AdresTip.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/target/classes/com/haydikodlayalim/entity/Adres.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/target/classes/com/haydikodlayalim/entity/Kisi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/target/classes/com/haydikodlayalim/repo/AdresRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/target/classes/com/haydikodlayalim/repo/KisiRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/target/classes/com/haydikodlayalim/service/KisiService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/target/classes/com/haydikodlayalim/service/impl/KisiServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/haydikodlayalim/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/guven/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/haydikodlayalim/api/KisiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/guven/api/KisiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/haydikodlayalim/entity/Kisi.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/guven/entity/Kisi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/haydikodlayalim/repository/KisiRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/guven/repository/KisiRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-elasticsearch/target/classes/com/haydikodlayalim/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-elasticsearch/target/classes/com/haydikodlayalim/api/KisiController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-elasticsearch/target/classes/com/haydikodlayalim/entity/Kisi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-elasticsearch/target/classes/com/haydikodlayalim/repository/KisiRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mongo-rest-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mongo-rest-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/haydikodlayalim/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/guven/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/haydikodlayalim/api/KullaniciApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/guven/api/KullaniciApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/haydikodlayalim/entity/Kullanici.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/guven/entity/Kullanici.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/haydikodlayalim/repository/KullaniciRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/guven/repository/KullaniciRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mongo-rest-api/target/classes/com/haydikodlayalim/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mongo-rest-api/target/classes/com/haydikodlayalim/api/KullaniciApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mongo-rest-api/target/classes/com/haydikodlayalim/entity/Kullanici.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mongo-rest-api/target/classes/com/haydikodlayalim/repository/KullaniciRepository.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +86,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="corretto-17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../hk spring/spring-examples" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -130,7 +98,14 @@
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootDocApplication">
+  <component name="RunManager" selected="Spring Boot.RabbitApplication">
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-elasticsearch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-mongo-rest-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.Application" />
@@ -164,6 +139,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RabbitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.RabbitApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootDocApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-api-doc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.SpringBootDocApplication" />
@@ -182,8 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RabbitApplication" />
         <item itemvalue="Spring Boot.DataJpaAplication" />
-        <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Docker.resources: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -202,7 +190,8 @@
       <workItem from="1642058839628" duration="10205000" />
       <workItem from="1642143890637" duration="11951000" />
       <workItem from="1642159750373" duration="1233000" />
-      <workItem from="1642161525062" duration="3508000" />
+      <workItem from="1642161525062" duration="3978000" />
+      <workItem from="1642345803028" duration="5749000" />
     </task>
     <servers />
   </component>
