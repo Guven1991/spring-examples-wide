@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd4e5cc5-c1e4-42cf-b404-1d006a814901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-rabbitmq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/guven/RabbitApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/guven/config/RabbitMqConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/guven/listener/NotificationListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/guven/model/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/guven/producer/NotificationProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-rabbitmq/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-rabbitmq/src/main/resources/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-dockerization/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-dockerization/src/main/java/com/guven/DockerizationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-dockerization/src/main/java/com/guven/MesajApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-dockerization/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -98,7 +93,7 @@
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
   </component>
-  <component name="RunManager" selected="Spring Boot.RabbitApplication">
+  <component name="RunManager" selected="Spring Boot.DockerizationApplication">
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-elasticsearch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.Application" />
@@ -139,6 +134,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DockerizationAppication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-dockerization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.DockerizationAppication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DockerizationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-dockerization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.DockerizationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RabbitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-rabbitmq" />
       <extension name="coverage">
@@ -170,6 +191,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DockerizationApplication" />
+        <item itemvalue="Spring Boot.DockerizationAppication" />
         <item itemvalue="Spring Boot.RabbitApplication" />
         <item itemvalue="Spring Boot.DataJpaAplication" />
         <item itemvalue="Docker.resources: Compose Deployment" />
@@ -191,7 +214,8 @@
       <workItem from="1642143890637" duration="11951000" />
       <workItem from="1642159750373" duration="1233000" />
       <workItem from="1642161525062" duration="3978000" />
-      <workItem from="1642345803028" duration="5749000" />
+      <workItem from="1642345803028" duration="6251000" />
+      <workItem from="1642490131914" duration="8335000" />
     </task>
     <servers />
   </component>
