@@ -12,7 +12,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-boot-api-doc</artifactId>
+    <artifactId>spring-boot-com.guven.aop.api-doc</artifactId>
 
 
     <groupId>com.guven</groupId>

@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd4e5cc5-c1e4-42cf-b404-1d006a814901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-dockerization/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-dockerization/src/main/java/com/guven/DockerizationApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-dockerization/src/main/java/com/guven/MesajApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-dockerization/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/guven/aop/SpringAopApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/guven/aop/api/MessageApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/guven/aop/aspects/ServiceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/guven/aop/service/IkinciMesajService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/guven/aop/service/MessageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-api-doc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-api-doc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mongo-rest-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mongo-rest-api/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +97,7 @@
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
   </component>
-  <component name="RunManager" selected="Spring Boot.DockerizationApplication">
+  <component name="RunManager" selected="Spring Boot.SpringAopApplication">
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-elasticsearch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.Application" />
@@ -173,6 +177,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringAopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guven.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.aop.SpringAopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootDocApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-api-doc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.SpringBootDocApplication" />
@@ -180,22 +197,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="resources: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="envFilePath" value="" />
-          <option name="sourceFilePath" value="spring-mongo-rest-api/src/main/resources/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringAopApplication" />
         <item itemvalue="Spring Boot.DockerizationApplication" />
         <item itemvalue="Spring Boot.DockerizationAppication" />
         <item itemvalue="Spring Boot.RabbitApplication" />
         <item itemvalue="Spring Boot.DataJpaAplication" />
-        <item itemvalue="Docker.resources: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +223,9 @@
       <workItem from="1642159750373" duration="1233000" />
       <workItem from="1642161525062" duration="3978000" />
       <workItem from="1642345803028" duration="6251000" />
-      <workItem from="1642490131914" duration="8335000" />
+      <workItem from="1642490131914" duration="8592000" />
+      <workItem from="1642577247083" duration="995000" />
+      <workItem from="1642876484879" duration="2949000" />
     </task>
     <servers />
   </component>
@@ -408,5 +418,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-aop/src/main/java/com/guven/aop/aspects/ServiceAspect.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-aop/src/main/java/com/guven/aop/api/MessageApi.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
