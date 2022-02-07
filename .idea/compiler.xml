@@ -13,10 +13,12 @@
         <module name="spring-boot-aop" />
         <module name="spring-mongo-rest-api" />
         <module name="spring-datajpa-postgresql" />
+        <module name="spring-boot-jwt" />
         <module name="spring-boot-api-doc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-boot-api-doc" target="13" />
       <module name="spring-mongo-rest-api" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -25,6 +27,7 @@
       <module name="spring-boot-aop" options="-parameters" />
       <module name="spring-boot-api-doc" options="-parameters" />
       <module name="spring-boot-dockerization" options="-parameters" />
+      <module name="spring-boot-jwt" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-datajpa-postgresql" options="-parameters" />
       <module name="spring-elasticsearch" options="-parameters" />

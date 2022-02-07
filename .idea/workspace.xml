@@ -5,18 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd4e5cc5-c1e4-42cf-b404-1d006a814901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-aop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/guven/aop/SpringAopApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/guven/aop/api/MessageApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/guven/aop/aspects/ServiceAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/guven/aop/service/IkinciMesajService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/guven/aop/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/guven/SpringBootJwtApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/guven/WebSecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/guven/api/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/guven/api/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/guven/auth/JwtTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/guven/auth/TokenManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/guven/auth/UserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/guven/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-api-doc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-api-doc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mongo-rest-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mongo-rest-api/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +46,12 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/spring-boot-api-doc/src/main/java/com/guven/Pet.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/spring-boot-api-doc/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/spring-boot-api-doc/pom.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/guven/entity/Adres.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/spring-boot-api-doc/src/main/java/com/guven/Pet.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/spring-boot-api-doc/src/main/java/com/guven/SpringBootDocApplication.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.22/lombok-1.18.22-sources.jar!/lombok/Data.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/spring-boot-api-doc/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -88,16 +91,16 @@
     <property name="jdk.selected.JAVA_MODULE" value="corretto-17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../hk spring/spring-examples" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringAopApplication">
+  <component name="RunManager" selected="Spring Boot.SpringBootJwtApplication">
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-elasticsearch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.Application" />
@@ -121,19 +124,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataJpaAplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-datajpa-postgresql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.guven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.DataJpaAplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,13 +187,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootJwtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-jwt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.SpringBootJwtApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringBootJwtApplication" />
         <item itemvalue="Spring Boot.SpringAopApplication" />
         <item itemvalue="Spring Boot.DockerizationApplication" />
         <item itemvalue="Spring Boot.DockerizationAppication" />
         <item itemvalue="Spring Boot.RabbitApplication" />
-        <item itemvalue="Spring Boot.DataJpaAplication" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +228,10 @@
       <workItem from="1642345803028" duration="6251000" />
       <workItem from="1642490131914" duration="8592000" />
       <workItem from="1642577247083" duration="995000" />
-      <workItem from="1642876484879" duration="2949000" />
+      <workItem from="1642876484879" duration="3256000" />
+      <workItem from="1642888344918" duration="932000" />
+      <workItem from="1643314015795" duration="489000" />
+      <workItem from="1644221646142" duration="10579000" />
     </task>
     <servers />
   </component>
@@ -426,11 +432,6 @@
           <url>file://$PROJECT_DIR$/spring-boot-aop/src/main/java/com/guven/aop/aspects/ServiceAspect.java</url>
           <line>14</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-boot-aop/src/main/java/com/guven/aop/api/MessageApi.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
