@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_ADDITIONAL_VM_OPTIONS" value="-Djps.track.ap.dependencies=false" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -15,6 +16,7 @@
         <module name="spring-datajpa-postgresql" />
         <module name="spring-boot-jwt" />
         <module name="spring-boot-api-doc" />
+        <module name="spring-boot-graphql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +29,7 @@
       <module name="spring-boot-aop" options="-parameters" />
       <module name="spring-boot-api-doc" options="-parameters" />
       <module name="spring-boot-dockerization" options="-parameters" />
+      <module name="spring-boot-graphql" options="-parameters" />
       <module name="spring-boot-jwt" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-datajpa-postgresql" options="-parameters" />

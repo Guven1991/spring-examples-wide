@@ -5,21 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd4e5cc5-c1e4-42cf-b404-1d006a814901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/guven/SpringBootJwtApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/guven/WebSecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/guven/api/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/guven/api/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/guven/auth/JwtTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/guven/auth/TokenManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/guven/auth/UserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/guven/request/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/guven/graphql/GraphQLApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/guven/graphql/api/VehicleMutationResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/guven/graphql/api/VehicleQueryResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/guven/graphql/dto/VehicleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/guven/graphql/entity/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/guven/graphql/repo/VehicleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/resources/vehicle.graphqls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/guven/DataJpaAplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/guven/DataJpaApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +61,9 @@
         <entry key="JPA Inspector" value="true" />
         <entry key="JPA Palette" value="true" />
         <entry key="JPA Structure" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
@@ -66,6 +71,9 @@
         <entry key="JPA Inspector" value="false" />
         <entry key="JPA Palette" value="false" />
         <entry key="JPA Structure" value="false" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -91,16 +99,16 @@
     <property name="jdk.selected.JAVA_MODULE" value="corretto-17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../hk spring/spring-examples" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootJwtApplication">
+  <component name="RunManager" selected="Spring Boot.GraphQLApplication">
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-elasticsearch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.Application" />
@@ -124,6 +132,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataJpaAplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-datajpa-postgresql" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.DataJpaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,15 +169,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RabbitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-rabbitmq" />
+    <configuration name="GraphQLApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-graphql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guven.*" />
+          <option name="PATTERN" value="com.guven.graphql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.RabbitApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guven.graphql.GraphQLApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GraphQLApplication" />
         <item itemvalue="Spring Boot.SpringBootJwtApplication" />
         <item itemvalue="Spring Boot.SpringAopApplication" />
         <item itemvalue="Spring Boot.DockerizationApplication" />
         <item itemvalue="Spring Boot.DockerizationAppication" />
-        <item itemvalue="Spring Boot.RabbitApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +246,10 @@
       <workItem from="1642876484879" duration="3256000" />
       <workItem from="1642888344918" duration="932000" />
       <workItem from="1643314015795" duration="489000" />
-      <workItem from="1644221646142" duration="10579000" />
+      <workItem from="1644221646142" duration="11255000" />
+      <workItem from="1644334675461" duration="358000" />
+      <workItem from="1645899059532" duration="3891000" />
+      <workItem from="1645906209892" duration="607000" />
     </task>
     <servers />
   </component>
